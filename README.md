@@ -24,18 +24,6 @@ Ensure to execute this notebook in the course's Python environment to install al
 !pip install rouge_score 
 
 
-## Named Entity Recognition
-Explore basic and enhanced Named Entity Recognition using Transformers.
-
-- Basic NER
-  
-import transformers
-from transformers import pipeline
-
-- Enhanced NER
-  
-from transformers import AutoTokenizer, TFAutoModelForTokenClassification
-
 ## Sentiment Analysis with Transformers
 Explore sentiment analysis with Hugging Face Transformers.
 
@@ -54,6 +42,18 @@ import os
 sentiment_classifier = pipeline(task="sentiment-analysis",
                                 model="finiteautomata/bertweet-base-sentiment-analysis")
 
+
+## Named Entity Recognition
+Explore basic and enhanced Named Entity Recognition using Transformers.
+
+- Basic NER
+  
+import transformers
+from transformers import pipeline
+
+- Enhanced NER
+  
+from transformers import AutoTokenizer, TFAutoModelForTokenClassification
 
 
 
